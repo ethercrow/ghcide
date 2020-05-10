@@ -1,4 +1,4 @@
-resolver: nightly-2020-02-13
+resolver: lts-15.11
 packages:
 - .
 extra-deps:
@@ -6,7 +6,10 @@ extra-deps:
 - haskell-lsp-types-0.22.0.0
 - lsp-test-0.10.3.0
 - ghc-check-0.3.0.1
-- opentelemetry-0.3.2
 - hie-bios-0.5.0
+- github: ethercrow/opentelemetry-haskell
+  commit: 476d9a7d26e1c3128d390e57e22da22fbb18522d
+  subdirs:
+  - opentelemetry
 nix:
   packages: [zlib]

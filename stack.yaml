@@ -15,6 +15,9 @@ extra-deps:
 - haddock-library-1.8.0
 - tasty-rerun-1.1.17
 - ghc-check-0.3.0.1
-- opentelemetry-0.3.2
+- github: ethercrow/opentelemetry-haskell
+  commit: 476d9a7d26e1c3128d390e57e22da22fbb18522d
+  subdirs:
+  - opentelemetry
 nix:
   packages: [zlib]

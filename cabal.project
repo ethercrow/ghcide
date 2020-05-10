@@ -7,3 +7,9 @@ source-repository-package
     type: git
     location: https://github.com/wz1000/shake.git
     tag: fb3859dca2e54d1bbb2c873e68ed225fa179fbef
+
+source-repository-package
+    type: git
+    location: https://github.com/ethercrow/opentelemetry-haskell.git
+    tag: 476d9a7d26e1c3128d390e57e22da22fbb18522d
+    subdir: opentelemetry
